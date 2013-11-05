@@ -1,13 +1,12 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rails_layout/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "rails_layout"
-  spec.version       = RailsLayout::VERSION
-  spec.authors       = ["Daniel Kehoe"]
-  spec.email         = ["daniel@danielkehoe.com"]
+  spec.name          = "intersect_rails_layout"
+  spec.version       = "0.0.1"
+  spec.authors       = ["Marc Ziani de Ferranti"]
+  spec.email         = ["marc@intersect.org.au"]
   spec.description   = %q{Generates Rails application layout files for use with various front-end frameworks.}
   spec.summary       = %q{Rails generator creates application layout files for Twitter Bootstrap and other frameworks.}
   spec.homepage      = "http://github.com/RailsApps/rails_layout/"

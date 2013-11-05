@@ -1,3 +1,3 @@
-module RailsLayout
-  VERSION = "0.2.2"
+module IntersectRailsLayout
+  VERSION = "0.1"
 end
