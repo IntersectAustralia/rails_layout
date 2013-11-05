@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "intersect_rails_layout"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Marc Ziani de Ferranti"]
   spec.email         = ["marc@intersect.org.au"]
   spec.description   = %q{Generates Rails application layout files for use with various front-end frameworks.}
   spec.summary       = %q{Rails generator creates application layout files for Twitter Bootstrap and other frameworks.}
-  spec.homepage      = "http://github.com/RailsApps/rails_layout/"
+  spec.homepage      = "http://github.com/IntersectAustralia/rails_layout/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
